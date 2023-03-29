@@ -54,16 +54,6 @@ The project is divided into several components:
 - **Strategy Processing:** Trading strategies are implemented in Python and run on the real-time data in Redis. When a strategy is triggered, a message is sent to the client via WebSocket.
 - **Web Interface:** The web interface allows users to view real-time data, configure trading strategies, and generate charts.
 
-## Contributing
-
-Contributions to this project are welcome. To contribute, follow these steps:
-
-1. Fork the repository
-2. Create a new branch for your feature or bug fix
-3. Make your changes and commit them
-4. Push your changes to your fork
-5. Open a pull request
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
