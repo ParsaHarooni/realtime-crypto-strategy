@@ -31,7 +31,8 @@ Edit the `.env` file to include your API keys and other necessary configuration 
 
 4. Start the server
 
-$ python manage.py runserver
+$ docker-compose up
+
 
 
 ## Usage
