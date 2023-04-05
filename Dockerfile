@@ -13,9 +13,9 @@ RUN pip install -r requirements.txt
 
 # Copy the project code into the container at /app/project
 COPY ./TradeAlert /app
+COPY ./test_data /root/test_data
 
 # Expose the port that the Django development server will run on
 EXPOSE 8000
 
 # Start the Django development server when the container starts
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]

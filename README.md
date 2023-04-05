@@ -16,6 +16,7 @@ To get started with this project, follow the instructions below.
 1. Clone the repository
 
 $ git clone https://github.com/your_username/realtime-crypto-strategy-checker.git
+
 $ cd realtime-crypto-strategy-checker
 
 2. Install dependencies
