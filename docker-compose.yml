@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_USER: tradealert
+      POSTGRES_PASSWORD: supersecretpass
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./TradeAlert:/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
